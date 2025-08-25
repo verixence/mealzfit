@@ -36,7 +36,7 @@ export function FAQ() {
       >
         <Accordion type="single" collapsible className="w-full">
           {siteData.faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
+            <AccordionItem key={index} value={`item-${index}`} className="border-gray-200">
               <AccordionTrigger className="text-left hover:text-green-600 transition-colors">
                 {faq.question}
               </AccordionTrigger>

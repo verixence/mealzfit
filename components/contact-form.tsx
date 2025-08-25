@@ -76,7 +76,7 @@ export function ContactForm() {
   }
 
   return (
-    <Card>
+    <Card className="bg-white border-gray-200">
       <CardHeader>
         <CardTitle className="text-2xl font-display">Send us a Message</CardTitle>
         <p className="text-gray-600">
