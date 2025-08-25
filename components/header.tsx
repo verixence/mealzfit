@@ -41,7 +41,7 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-green-600 transition-colors"
               >
                 {item.name}
               </Link>
@@ -55,7 +55,7 @@ export function Header() {
                 asChild
                 variant="outline"
                 size="sm"
-                className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
+                className="border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_SWIGGY_URL}
@@ -113,7 +113,7 @@ export function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                      className="text-lg font-medium text-gray-700 hover:text-green-600 transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.name}
@@ -126,7 +126,7 @@ export function Header() {
                     <Button
                       asChild
                       variant="outline"
-                      className="w-full border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
+                      className="w-full border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
                     >
                       <a
                         href={process.env.NEXT_PUBLIC_SWIGGY_URL}

@@ -40,12 +40,12 @@ export function TestimonialsSection() {
             >
               <Card className="h-full hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <Quote className="h-8 w-8 text-orange-600 mb-4" />
+                  <Quote className="h-8 w-8 text-green-600 mb-4" />
                   <p className="text-gray-900 mb-6 italic">
                     "{testimonial.text}"
                   </p>
                   <div className="flex items-center space-x-3">
-                    <div className="relative w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center overflow-hidden">
+                    <div className="relative w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden">
                       {testimonial.avatar ? (
                         <Image
                           src={testimonial.avatar}
@@ -54,7 +54,7 @@ export function TestimonialsSection() {
                           className="object-cover"
                         />
                       ) : (
-                        <span className="text-orange-600 font-semibold">
+                        <span className="text-green-600 font-semibold">
                           {testimonial.name.charAt(0)}
                         </span>
                       )}

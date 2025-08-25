@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display text-gray-900 mb-6">
-              About <span className="text-orange-600">Mealzfit</span>
+              About <span className="text-green-600">Mealzfit</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We believe healthy eating should never be boring, stressful, or complicated.
@@ -88,15 +88,15 @@ export default function AboutPage() {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
-                    <span className="flex-shrink-0 w-2 h-2 bg-orange-500 rounded-full mt-2"></span>
+                    <span className="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2"></span>
                     <span><strong>Homely Foods:</strong> Traditional recipes with a healthy twist</span>
                   </li>
                   <li className="flex items-start space-x-3">
-                    <span className="flex-shrink-0 w-2 h-2 bg-orange-500 rounded-full mt-2"></span>
+                    <span className="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2"></span>
                     <span><strong>Diabetic-Friendly:</strong> Low-GI ingredients, balanced nutrition</span>
                   </li>
                   <li className="flex items-start space-x-3">
-                    <span className="flex-shrink-0 w-2 h-2 bg-orange-500 rounded-full mt-2"></span>
+                    <span className="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2"></span>
                     <span><strong>Fitness Bowls:</strong> High-protein, fiber-rich combinations</span>
                   </li>
                 </ul>
@@ -123,15 +123,15 @@ export default function AboutPage() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-600 mb-2">500+</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">500+</div>
                 <div className="text-gray-600">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-600 mb-2">18</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">18</div>
                 <div className="text-gray-600">Menu Items</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-600 mb-2">100%</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">100%</div>
                 <div className="text-gray-600">Fresh Ingredients</div>
               </div>
             </div>

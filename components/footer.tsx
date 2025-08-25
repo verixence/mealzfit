@@ -21,16 +21,16 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
-              <Link href="/menu" className="text-sm text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href="/menu" className="text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Menu
               </Link>
-              <Link href="/about" className="text-sm text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href="/about" className="text-sm text-gray-300 hover:text-green-400 transition-colors">
                 About
               </Link>
-              <Link href="/why-mealzfit" className="text-sm text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href="/why-mealzfit" className="text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Why Mealzfit
               </Link>
-              <Link href="/testimonials" className="text-sm text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href="/testimonials" className="text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Testimonials
               </Link>
             </nav>
@@ -41,20 +41,20 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-white">Contact</h3>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
-                <Mail className="h-4 w-4 text-orange-400" />
+                <Mail className="h-4 w-4 text-green-400" />
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="text-sm text-gray-300 hover:text-orange-400 transition-colors"
+                  className="text-sm text-gray-300 hover:text-green-400 transition-colors"
                 >
                   {siteConfig.email}
                 </a>
               </div>
               {siteConfig.phones.map((phone, index) => (
                 <div key={index} className="flex items-center space-x-2">
-                  <Phone className="h-4 w-4 text-orange-400" />
+                  <Phone className="h-4 w-4 text-green-400" />
                   <a
                     href={`tel:${phone}`}
-                    className="text-sm text-gray-300 hover:text-orange-400 transition-colors"
+                    className="text-sm text-gray-300 hover:text-green-400 transition-colors"
                   >
                     {phone}
                   </a>
@@ -75,7 +75,7 @@ export function Footer() {
                   href={process.env.NEXT_PUBLIC_INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-orange-400 transition-colors"
+                  className="text-gray-300 hover:text-green-400 transition-colors"
                 >
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
@@ -86,7 +86,7 @@ export function Footer() {
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-orange-400 transition-colors"
+                  className="text-gray-300 hover:text-green-400 transition-colors"
                 >
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
@@ -94,10 +94,10 @@ export function Footer() {
               )}
             </div>
             <div className="space-y-2">
-              <Link href="/privacy" className="block text-sm text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href="/privacy" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="block text-sm text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href="/terms" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Terms of Service
               </Link>
             </div>

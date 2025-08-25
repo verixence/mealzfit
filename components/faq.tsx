@@ -37,7 +37,7 @@ export function FAQ() {
         <Accordion type="single" collapsible className="w-full">
           {siteData.faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left hover:text-orange-600 transition-colors">
+              <AccordionTrigger className="text-left hover:text-green-600 transition-colors">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
@@ -62,14 +62,14 @@ export function FAQ() {
           Contact us at{" "}
           <a
             href={`mailto:${siteData.email}`}
-            className="text-orange-600 hover:text-orange-700 transition-colors"
+            className="text-green-600 hover:text-green-700 transition-colors"
           >
             {siteData.email}
           </a>{" "}
           or call us at{" "}
           <a
             href={`tel:${siteData.phones[0]}`}
-            className="text-orange-600 hover:text-orange-700 transition-colors"
+            className="text-green-600 hover:text-green-700 transition-colors"
           >
             {siteData.phones[0]}
           </a>

@@ -73,7 +73,7 @@ export function Hero() {
 
       {/* Animated Background Elements */}
       <motion.div
-        className="absolute top-20 right-10 w-20 h-20 bg-orange-400/20 rounded-full blur-xl"
+        className="absolute top-20 right-10 w-20 h-20 bg-green-400/20 rounded-full blur-xl"
         animate={{
           x: [0, 50, 0],
           y: [0, -30, 0],
@@ -120,7 +120,7 @@ export function Hero() {
           animate={sparkleAnimation}
           className="p-3 bg-white/10 backdrop-blur-sm rounded-full"
         >
-          <Sparkles className="h-6 w-6 text-orange-300" />
+          <Sparkles className="h-6 w-6 text-green-300" />
         </motion.div>
       </motion.div>
 
@@ -173,7 +173,7 @@ export function Hero() {
           }}
           className="p-3 bg-white/10 backdrop-blur-sm rounded-full"
         >
-          <Zap className="h-6 w-6 text-orange-300" />
+          <Zap className="h-6 w-6 text-green-300" />
         </motion.div>
       </motion.div>
 
@@ -216,7 +216,7 @@ export function Hero() {
                     ease: "easeInOut"
                   }}
                 >
-                  <Sparkles className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 text-orange-300" />
+                  <Sparkles className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 text-green-300" />
                 </motion.div>
               </motion.div>
               
@@ -242,7 +242,7 @@ export function Hero() {
             >
               Choose Health Choose Happiness
               <br className="hidden sm:block" />
-              <span className="text-orange-300 font-bold">Mealzfit</span> - Nourish Your Body Naturally
+              <span className="text-green-300 font-bold">Mealzfit</span> - Nourish Your Body Naturally
             </motion.p>
           </motion.div>
 
@@ -306,7 +306,7 @@ export function Hero() {
                   asChild
                   variant="outline"
                   size="lg"
-                  className="border-2 border-white/80 text-white hover:bg-white hover:text-gray-900 min-w-[220px] h-14 text-lg font-bold shadow-2xl backdrop-blur-sm bg-white/10 hover:shadow-white/25 transition-all duration-300 rounded-full"
+                  className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-green-500/25 transition-all duration-300 rounded-full border-2 border-green-300/50"
                 >
                   <a
                     href={process.env.NEXT_PUBLIC_ZOMATO_URL}

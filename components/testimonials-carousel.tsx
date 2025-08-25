@@ -57,14 +57,14 @@ export function TestimonialsCarousel() {
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.5 }}
             >
-              <Card className="bg-gradient-to-br from-orange-50 to-orange-100 border-0 shadow-lg">
+              <Card className="bg-white border-0 shadow-lg">
                 <CardContent className="p-8 sm:p-12 text-center">
-                  <Quote className="h-12 w-12 text-orange-600 mx-auto mb-6" />
+                  <Quote className="h-12 w-12 text-green-600 mx-auto mb-6" />
                   <blockquote className="text-xl sm:text-2xl text-gray-900 mb-8 italic font-medium">
                     "{testimonials[currentIndex].text}"
                   </blockquote>
                   <div className="flex items-center justify-center space-x-4">
-                    <div className="relative w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center overflow-hidden">
+                    <div className="relative w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden">
                       {testimonials[currentIndex].avatar ? (
                         <Image
                           src={testimonials[currentIndex].avatar!}
@@ -73,7 +73,7 @@ export function TestimonialsCarousel() {
                           className="object-cover"
                         />
                       ) : (
-                        <span className="text-orange-600 font-semibold text-xl">
+                        <span className="text-green-600 font-semibold text-xl">
                           {testimonials[currentIndex].name.charAt(0)}
                         </span>
                       )}
@@ -117,7 +117,7 @@ export function TestimonialsCarousel() {
             <button
               key={index}
               className={`w-3 h-3 rounded-full transition-colors ${
-                index === currentIndex ? 'bg-orange-600' : 'bg-gray-300'
+                index === currentIndex ? 'bg-green-600' : 'bg-gray-300'
               }`}
               onClick={() => setCurrentIndex(index)}
             />

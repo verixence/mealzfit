@@ -34,7 +34,7 @@ export function NutritionInfo({ nutrition, itemName }: NutritionInfoProps) {
   const macroNutrients = [
     { label: "Protein", value: nutrition.protein, icon: Activity, color: "text-green-600" },
     { label: "Carbs", value: nutrition.carbs, icon: Zap, color: "text-blue-600" },
-    { label: "Fat", value: nutrition.fat, icon: Shield, color: "text-orange-600" },
+    { label: "Fat", value: nutrition.fat, icon: Shield, color: "text-red-600" },
   ];
 
   return (

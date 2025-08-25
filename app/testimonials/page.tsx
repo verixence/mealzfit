@@ -14,7 +14,7 @@ export default function TestimonialsPage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold font-display text-gray-900 mb-4">
-            Customer <span className="text-orange-600">Stories</span>
+            Customer <span className="text-green-600">Stories</span>
           </h1>
           <p className="text-gray-600 text-xl max-w-3xl mx-auto">
             Real stories from real people who love Mealzfit. Join hundreds of satisfied customers 

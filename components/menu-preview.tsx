@@ -17,7 +17,7 @@ const getBadgeVariant = (tag: string) => {
     case "sugar-free":
       return "bg-purple-100 text-purple-800 border-purple-200";
     case "fiber-rich":
-      return "bg-orange-100 text-orange-800 border-orange-200";
+      return "bg-gray-100 text-gray-800 border-gray-200";
     case "diabetic-friendly":
       return "bg-emerald-100 text-emerald-800 border-emerald-200";
     default:
@@ -95,7 +95,7 @@ export function MenuPreview() {
                           asChild
                           size="sm"
                           variant="outline"
-                          className="text-xs border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
+                          className="text-xs border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
                         >
                           <a
                             href={process.env.NEXT_PUBLIC_SWIGGY_URL}

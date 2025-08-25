@@ -26,7 +26,7 @@ const categories = [
     href: "/menu?category=homely-foods",
     icon: Utensils,
     description: "Comforting home-style meals",
-    color: "from-orange-500 to-red-500"
+    color: "from-red-500 to-red-600"
   },
   { 
     id: "diabetic-friendly", 
@@ -68,7 +68,7 @@ export function CategoryPills() {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-20 h-20 bg-green-500 rounded-full blur-xl"></div>
-        <div className="absolute bottom-10 right-10 w-32 h-32 bg-orange-500 rounded-full blur-xl"></div>
+        <div className="absolute bottom-10 right-10 w-32 h-32 bg-red-500 rounded-full blur-xl"></div>
         <div className="absolute top-1/2 left-1/3 w-16 h-16 bg-blue-500 rounded-full blur-xl"></div>
       </div>
 

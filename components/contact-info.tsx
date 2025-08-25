@@ -19,14 +19,14 @@ export function ContactInfo() {
         <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-center space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                <Mail className="h-6 w-6 text-orange-600" />
+              <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                <Mail className="h-6 w-6 text-green-600" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Email</h3>
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="text-gray-600 hover:text-orange-600 transition-colors"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
                 >
                   {siteConfig.email}
                 </a>
@@ -39,8 +39,8 @@ export function ContactInfo() {
         <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                <Phone className="h-6 w-6 text-orange-600" />
+              <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                <Phone className="h-6 w-6 text-green-600" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
@@ -49,7 +49,7 @@ export function ContactInfo() {
                     <div key={index}>
                       <a
                         href={`tel:${phone}`}
-                        className="text-gray-600 hover:text-orange-600 transition-colors block"
+                        className="text-gray-600 hover:text-green-600 transition-colors block"
                       >
                         {phone}
                       </a>
@@ -65,8 +65,8 @@ export function ContactInfo() {
         <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-center space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                <MapPin className="h-6 w-6 text-orange-600" />
+              <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                <MapPin className="h-6 w-6 text-green-600" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Serving</h3>
@@ -86,9 +86,9 @@ export function ContactInfo() {
                   href={process.env.NEXT_PUBLIC_INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full hover:bg-orange-200 transition-colors"
+                  className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
                 >
-                  <Instagram className="h-6 w-6 text-orange-600" />
+                  <Instagram className="h-6 w-6 text-green-600" />
                   <span className="sr-only">Instagram</span>
                 </a>
               )}
@@ -97,9 +97,9 @@ export function ContactInfo() {
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full hover:bg-orange-200 transition-colors"
+                  className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
                 >
-                  <Facebook className="h-6 w-6 text-orange-600" />
+                  <Facebook className="h-6 w-6 text-green-600" />
                   <span className="sr-only">Facebook</span>
                 </a>
               )}

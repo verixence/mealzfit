@@ -30,7 +30,7 @@ export function NutritionDisplay({ nutrition }: NutritionDisplayProps) {
           <div className="text-xs text-gray-600">Carbs</div>
         </div>
         <div className="text-center">
-          <div className="text-lg font-bold text-orange-600">{nutrition.fat}</div>
+          <div className="text-lg font-bold text-red-600">{nutrition.fat}</div>
           <div className="text-xs text-gray-600">Fat</div>
         </div>
       </div>

@@ -102,7 +102,7 @@ export function TestimonialsGrid() {
               href={process.env.NEXT_PUBLIC_INSTAGRAM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-orange-600 hover:text-orange-700 transition-colors font-medium"
+              className="text-green-600 hover:text-green-700 transition-colors font-medium"
             >
               @mealzfit
             </a>
