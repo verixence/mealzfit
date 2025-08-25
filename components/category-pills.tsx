@@ -58,13 +58,13 @@ const categories = [
     href: "/menu?category=desserts",
     icon: IceCream,
     description: "Healthy sweet treats",
-    color: "from-yellow-500 to-orange-500"
+    color: "from-purple-500 to-pink-500"
   },
 ];
 
 export function CategoryPills() {
   return (
-    <section className="py-12 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
+    <section className="py-12 bg-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-20 h-20 bg-green-500 rounded-full blur-xl"></div>

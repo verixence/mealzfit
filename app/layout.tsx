@@ -29,10 +29,10 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body
-        className={`${inter.variable} ${plusJakarta.variable} font-sans antialiased bg-background text-foreground`}
+        className={`${inter.variable} ${plusJakarta.variable} font-sans antialiased bg-white text-foreground`}
       >
         <Header />
-        <main className="min-h-screen">
+        <main className="min-h-screen bg-white">
           {children}
         </main>
         <Footer />

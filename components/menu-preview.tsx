@@ -30,7 +30,7 @@ export function MenuPreview() {
   const featuredItems = menuData.items.slice(0, 6);
 
   return (
-    <section id="menu-preview" className="py-16 bg-gray-50">
+    <section id="menu-preview" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-12"

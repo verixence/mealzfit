@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function MenuPage() {
   return (
-    <div className="min-h-screen bg-background pt-8">
+    <div className="min-h-screen bg-white pt-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl font-bold font-display text-foreground mb-4">

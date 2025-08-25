@@ -70,7 +70,7 @@ export function NutritionInfo({ nutrition, itemName }: NutritionInfoProps) {
             <h4 className="font-semibold text-gray-900 mb-3">Macronutrients</h4>
             <div className="grid grid-cols-3 gap-3">
               {macroNutrients.map((macro) => (
-                <div key={macro.label} className="text-center p-3 bg-gray-50 rounded-lg">
+                <div key={macro.label} className="text-center p-3 bg-white border border-gray-200 rounded-lg">
                   <macro.icon className={`h-5 w-5 mx-auto mb-1 ${macro.color}`} />
                   <div className="text-xs text-gray-600">{macro.label}</div>
                   <div className="font-semibold text-gray-900">{macro.value}</div>

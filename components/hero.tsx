@@ -120,7 +120,7 @@ export function Hero() {
           animate={sparkleAnimation}
           className="p-3 bg-white/10 backdrop-blur-sm rounded-full"
         >
-          <Sparkles className="h-6 w-6 text-yellow-300" />
+          <Sparkles className="h-6 w-6 text-orange-300" />
         </motion.div>
       </motion.div>
 
@@ -216,7 +216,7 @@ export function Hero() {
                     ease: "easeInOut"
                   }}
                 >
-                  <Sparkles className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 text-yellow-300" />
+                  <Sparkles className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 text-orange-300" />
                 </motion.div>
               </motion.div>
               

@@ -80,7 +80,7 @@ export function MenuGrid() {
 
       {/* Category Tabs */}
       <Tabs value={activeCategory} onValueChange={setActiveCategory} className="w-full">
-        <TabsList className="grid w-full grid-cols-2 lg:grid-cols-6 h-auto p-1">
+        <TabsList className="grid w-full grid-cols-2 lg:grid-cols-6 h-auto p-1 bg-white border border-gray-200">
           {categories.map((category) => (
             <TabsTrigger
               key={category.id}

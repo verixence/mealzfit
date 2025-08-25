@@ -16,7 +16,7 @@ export function ContactInfo() {
 
       <div className="space-y-4">
         {/* Email */}
-        <Card>
+        <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
@@ -36,7 +36,7 @@ export function ContactInfo() {
         </Card>
 
         {/* Phone Numbers */}
-        <Card>
+        <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
@@ -62,7 +62,7 @@ export function ContactInfo() {
         </Card>
 
         {/* Location */}
-        <Card>
+        <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
@@ -77,7 +77,7 @@ export function ContactInfo() {
         </Card>
 
         {/* Social Media */}
-        <Card>
+        <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <h3 className="font-semibold text-gray-900 mb-4">Follow Us</h3>
             <div className="flex space-x-4">
@@ -109,7 +109,7 @@ export function ContactInfo() {
       </div>
 
       {/* Business Hours */}
-      <Card>
+      <Card className="bg-white border-gray-200">
         <CardContent className="p-6">
           <h3 className="font-semibold text-gray-900 mb-4">Business Hours</h3>
           <div className="space-y-2 text-sm">
