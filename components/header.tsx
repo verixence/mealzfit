@@ -50,7 +50,7 @@ export function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            {process.env.NEXT_PUBLIC_SWIGGY_URL && (
+            {(process.env.NEXT_PUBLIC_SWIGGY_URL || true) && (
               <Button
                 asChild
                 variant="outline"
@@ -58,7 +58,7 @@ export function Header() {
                 className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
               >
                 <a
-                  href={process.env.NEXT_PUBLIC_SWIGGY_URL}
+                  href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/restaurant/mealzfit-hyderabad-123456"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -66,14 +66,14 @@ export function Header() {
                 </a>
               </Button>
             )}
-            {process.env.NEXT_PUBLIC_ZOMATO_URL && (
+            {(process.env.NEXT_PUBLIC_ZOMATO_URL || true) && (
               <Button
                 asChild
                 size="sm"
                 className="bg-green-600 hover:bg-green-700"
               >
                 <a
-                  href={process.env.NEXT_PUBLIC_ZOMATO_URL}
+                  href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -122,14 +122,14 @@ export function Header() {
                 </nav>
 
                 <div className="pt-6 space-y-3">
-                  {process.env.NEXT_PUBLIC_SWIGGY_URL && (
+                  {(process.env.NEXT_PUBLIC_SWIGGY_URL || true) && (
                     <Button
                       asChild
                       variant="outline"
                       className="w-full border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
                     >
                       <a
-                        href={process.env.NEXT_PUBLIC_SWIGGY_URL}
+                        href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/restaurant/mealzfit-hyderabad-123456"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -137,13 +137,13 @@ export function Header() {
                       </a>
                     </Button>
                   )}
-                  {process.env.NEXT_PUBLIC_ZOMATO_URL && (
+                  {(process.env.NEXT_PUBLIC_ZOMATO_URL || true) && (
                     <Button
                       asChild
                       className="w-full bg-green-600 hover:bg-green-700"
                     >
                       <a
-                        href={process.env.NEXT_PUBLIC_ZOMATO_URL}
+                        href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

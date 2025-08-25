@@ -251,7 +251,7 @@ export function Hero() {
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12"
           >
-            {process.env.NEXT_PUBLIC_SWIGGY_URL && (
+            {(process.env.NEXT_PUBLIC_SWIGGY_URL || true) && (
               <motion.div
                 whileHover={{ 
                   scale: 1.05,
@@ -268,7 +268,7 @@ export function Hero() {
                   className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 rounded-full border-2 border-orange-300/50"
                 >
                   <a
-                    href={process.env.NEXT_PUBLIC_SWIGGY_URL}
+                    href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/restaurant/mealzfit-hyderabad-123456"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -291,7 +291,7 @@ export function Hero() {
               </motion.div>
             )}
             
-            {process.env.NEXT_PUBLIC_ZOMATO_URL && (
+            {(process.env.NEXT_PUBLIC_ZOMATO_URL || true) && (
               <motion.div
                 whileHover={{ 
                   scale: 1.05,
@@ -309,7 +309,7 @@ export function Hero() {
                   className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-green-500/25 transition-all duration-300 rounded-full border-2 border-green-300/50"
                 >
                   <a
-                    href={process.env.NEXT_PUBLIC_ZOMATO_URL}
+                    href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
