@@ -108,7 +108,7 @@ export function MenuGrid() {
                 whileHover={{ y: -5 }}
                 className="h-full"
               >
-                <Card className="h-full overflow-hidden menu-card">
+                <Card className="h-full overflow-hidden menu-card bg-white border-gray-200">
                   <div className="relative h-48 overflow-hidden">
                     <Image
                       src={item.image}

@@ -111,7 +111,7 @@ export function WhyMealzfitDetailed() {
               </div>
 
               <div className={isEven ? 'lg:order-2' : 'lg:order-1'}>
-                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow bg-white border-gray-200">
                   <div className="relative h-96">
                     <Image
                       src={advantage.image}

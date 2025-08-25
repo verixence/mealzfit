@@ -67,7 +67,7 @@ export function TestimonialsGrid() {
             whileHover={{ y: -5 }}
             className="h-full"
           >
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow group">
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow group bg-white border-gray-200">
               <div className="relative h-64 overflow-hidden">
                 <Image
                   src={image.src}

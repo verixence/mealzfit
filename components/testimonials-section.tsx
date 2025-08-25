@@ -38,7 +38,7 @@ export function TestimonialsSection() {
               whileHover={{ y: -5 }}
               className="h-full"
             >
-              <Card className="h-full hover:shadow-lg transition-shadow">
+              <Card className="h-full hover:shadow-lg transition-shadow bg-white border-gray-200">
                 <CardContent className="p-6">
                   <Quote className="h-8 w-8 text-green-600 mb-4" />
                   <p className="text-gray-900 mb-6 italic">
