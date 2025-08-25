@@ -60,7 +60,7 @@ export function ContactForm() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <Card className="bg-green-50 border-green-200">
+        <Card className="bg-white border-green-200">
           <CardContent className="p-8 text-center">
             <CheckCircle className="h-16 w-16 text-green-600 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-green-800 mb-2">

@@ -19,7 +19,7 @@ export function ContactInfo() {
         <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-center space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <Mail className="h-6 w-6 text-green-600" />
               </div>
               <div>
@@ -39,7 +39,7 @@ export function ContactInfo() {
         <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <Phone className="h-6 w-6 text-green-600" />
               </div>
               <div>
@@ -65,7 +65,7 @@ export function ContactInfo() {
         <Card className="bg-white border-gray-200">
           <CardContent className="p-6">
             <div className="flex items-center space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <MapPin className="h-6 w-6 text-green-600" />
               </div>
               <div>
@@ -86,7 +86,7 @@ export function ContactInfo() {
                   href={process.env.NEXT_PUBLIC_INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
+                  className="flex items-center justify-center w-12 h-12 bg-white rounded-full hover:bg-gray-50 transition-colors"
                 >
                   <Instagram className="h-6 w-6 text-green-600" />
                   <span className="sr-only">Instagram</span>
@@ -97,7 +97,7 @@ export function ContactInfo() {
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
+                  className="flex items-center justify-center w-12 h-12 bg-white rounded-full hover:bg-gray-50 transition-colors"
                 >
                   <Facebook className="h-6 w-6 text-green-600" />
                   <span className="sr-only">Facebook</span>

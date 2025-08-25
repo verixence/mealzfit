@@ -33,7 +33,7 @@ export function CTASection() {
                 asChild
                 size="lg"
                 variant="secondary"
-                className="min-w-[200px] bg-white text-gray-900 hover:bg-gray-100"
+                className="min-w-[200px] bg-white text-gray-900 hover:bg-gray-50"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_SWIGGY_URL}

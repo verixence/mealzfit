@@ -64,7 +64,7 @@ export function TestimonialsCarousel() {
                     "{testimonials[currentIndex].text}"
                   </blockquote>
                   <div className="flex items-center justify-center space-x-4">
-                    <div className="relative w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden">
+                    <div className="relative w-16 h-16 bg-white rounded-full flex items-center justify-center overflow-hidden">
                       {testimonials[currentIndex].avatar ? (
                         <Image
                           src={testimonials[currentIndex].avatar!}

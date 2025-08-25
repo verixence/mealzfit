@@ -55,7 +55,7 @@ export function Header() {
                 asChild
                 variant="outline"
                 size="sm"
-                className="border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
+                className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_SWIGGY_URL}
@@ -70,7 +70,7 @@ export function Header() {
               <Button
                 asChild
                 size="sm"
-                className="bg-blue-600 hover:bg-blue-700"
+                className="bg-green-600 hover:bg-green-700"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_ZOMATO_URL}
@@ -126,7 +126,7 @@ export function Header() {
                     <Button
                       asChild
                       variant="outline"
-                      className="w-full border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
+                      className="w-full border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
                     >
                       <a
                         href={process.env.NEXT_PUBLIC_SWIGGY_URL}
@@ -140,7 +140,7 @@ export function Header() {
                   {process.env.NEXT_PUBLIC_ZOMATO_URL && (
                     <Button
                       asChild
-                      className="w-full bg-blue-600 hover:bg-blue-700"
+                      className="w-full bg-green-600 hover:bg-green-700"
                     >
                       <a
                         href={process.env.NEXT_PUBLIC_ZOMATO_URL}

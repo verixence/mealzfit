@@ -17,11 +17,11 @@ const getBadgeVariant = (tag: string) => {
     case "sugar-free":
       return "bg-purple-100 text-purple-800 border-purple-200";
     case "fiber-rich":
-      return "bg-gray-100 text-gray-800 border-gray-200";
+      return "bg-white text-gray-800 border-gray-200";
     case "diabetic-friendly":
       return "bg-emerald-100 text-emerald-800 border-emerald-200";
     default:
-      return "bg-gray-100 text-gray-800 border-gray-200";
+      return "bg-white text-gray-800 border-gray-200";
   }
 };
 

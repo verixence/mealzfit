@@ -57,7 +57,7 @@ export function NutritionInfo({ nutrition, itemName }: NutritionInfoProps) {
         
         <div className="space-y-6">
           {/* Serving Size & Calories */}
-          <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+          <div className="bg-white p-4 rounded-lg border border-green-200">
             <div className="text-sm text-gray-600 mb-1">Serving Size</div>
             <div className="font-medium text-gray-900">{nutrition.servingSize}</div>
             <div className="text-2xl font-bold text-green-700 mt-2">

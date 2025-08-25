@@ -22,11 +22,11 @@ const getBadgeVariant = (tag: string) => {
     case "sugar-free":
       return "bg-purple-100 text-purple-800 border-purple-300";
     case "fiber-rich":
-      return "bg-gray-100 text-gray-800 border-gray-300";
+      return "bg-white text-gray-800 border-gray-300";
     case "diabetic-friendly":
       return "bg-teal-100 text-teal-800 border-teal-300";
     default:
-      return "bg-gray-100 text-gray-800 border-gray-300";
+      return "bg-white text-gray-800 border-gray-300";
   }
 };
 
@@ -137,7 +137,7 @@ export function MenuGrid() {
                         </Badge>
                       ))}
                       {item.tags.length > 3 && (
-                        <Badge variant="outline" className="text-xs bg-gray-100 text-gray-600 border-gray-300">
+                        <Badge variant="outline" className="text-xs bg-white text-gray-600 border-gray-300">
                           +{item.tags.length - 3}
                         </Badge>
                       )}
@@ -150,7 +150,7 @@ export function MenuGrid() {
                             asChild
                             size="sm"
                             variant="outline"
-                            className="text-xs border-gray-300 text-gray-600 hover:bg-gray-50"
+                            className="text-xs border-gray-300 text-gray-600 hover:bg-white"
                           >
                             <a
                               href={process.env.NEXT_PUBLIC_SWIGGY_URL}

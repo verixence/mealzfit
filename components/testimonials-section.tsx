@@ -45,7 +45,7 @@ export function TestimonialsSection() {
                     "{testimonial.text}"
                   </p>
                   <div className="flex items-center space-x-3">
-                    <div className="relative w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden">
+                    <div className="relative w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden">
                       {testimonial.avatar ? (
                         <Image
                           src={testimonial.avatar}
