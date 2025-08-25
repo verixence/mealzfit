@@ -16,7 +16,7 @@ import { NutritionDisplay } from "@/components/nutrition-display";
 const getBadgeVariant = (tag: string) => {
   switch (tag) {
     case "high-protein":
-      return "bg-green-100 text-green-800 border-green-300";
+      return "bg-white text-green-800 border-green-300";
     case "low-gi":
       return "bg-blue-100 text-blue-800 border-blue-300";
     case "sugar-free":

@@ -13,7 +13,7 @@ const getBadgeVariant = (tag: string) => {
     case "high-protein":
       return "bg-blue-100 text-blue-800 border-blue-200";
     case "low-gi":
-      return "bg-green-100 text-green-800 border-green-200";
+      return "bg-white text-green-800 border-green-200";
     case "sugar-free":
       return "bg-purple-100 text-purple-800 border-purple-200";
     case "fiber-rich":
