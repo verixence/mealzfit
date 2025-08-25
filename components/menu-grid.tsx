@@ -74,7 +74,7 @@ export function MenuGrid() {
           placeholder="Search menu items..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="pl-10"
+          className="pl-10 text-gray-900 placeholder:text-gray-500"
         />
       </motion.div>
 

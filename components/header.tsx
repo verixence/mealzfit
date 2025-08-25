@@ -91,7 +91,7 @@ export function Header() {
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-white border-0">
+            <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-white border-0 [&>button]:bg-white [&>button]:hover:bg-gray-100 [&>button]:border-0">
               <div className="flex flex-col space-y-3 mt-6">
                 <Link
                   href="/"
@@ -139,7 +139,7 @@ export function Header() {
                   {(process.env.NEXT_PUBLIC_ZOMATO_URL || true) && (
                     <Button
                       asChild
-                      className="w-full bg-green-600 hover:bg-green-700"
+                      className="w-full bg-green-600 hover:bg-green-700 text-white border-0"
                     >
                       <a
                         href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
