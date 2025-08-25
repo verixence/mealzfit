@@ -81,7 +81,7 @@ export function TestimonialsSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <Button asChild variant="outline" size="lg">
+          <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white">
             <Link href="/testimonials">Read More Stories</Link>
           </Button>
         </motion.div>
