@@ -357,4 +357,4 @@ For questions or support:
 
 ---
 
-Made with ❤️ for healthy eating in Hyderabad
+Made with ❤️ for healthy eating in Hyderabad.
