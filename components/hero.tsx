@@ -304,9 +304,8 @@ export function Hero() {
               >
                 <Button
                   asChild
-                  variant="outline"
                   size="lg"
-                  className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-green-500/25 transition-all duration-300 rounded-full border-2 border-green-300/50"
+                  className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-red-500/25 transition-all duration-300 rounded-full border-2 border-red-300/50"
                 >
                   <a
                     href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}

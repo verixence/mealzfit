@@ -70,7 +70,7 @@ export function Header() {
               <Button
                 asChild
                 size="sm"
-                className="bg-green-600 hover:bg-green-700"
+                className="bg-red-500 hover:bg-red-600 text-white"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
@@ -139,7 +139,7 @@ export function Header() {
                   {(process.env.NEXT_PUBLIC_ZOMATO_URL || true) && (
                     <Button
                       asChild
-                      className="w-full bg-green-600 hover:bg-green-700 text-white border-0"
+                      className="w-full bg-red-500 hover:bg-red-600 text-white border-0"
                     >
                       <a
                         href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
