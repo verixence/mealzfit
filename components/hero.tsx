@@ -59,21 +59,22 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/Mealzfit DP-1 (1).png"
-          alt="Healthy food banner"
+          src="/images/HomepageBanner.png"
+          alt="Delicious healthy meals with smoothies"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center scale-105 hover:scale-110 transition-transform duration-700 ease-out"
           priority
           sizes="100vw"
         />
-        {/* Gradient overlay for better text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/20 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/10" />
+        {/* Softer gradient overlay for better text readability and warmth */}
+        <div className="absolute inset-0 bg-gradient-to-r from-green-900/30 via-green-800/10 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 via-transparent to-green-800/10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-900/15 via-transparent to-transparent" />
       </div>
 
       {/* Animated Background Elements */}
       <motion.div
-        className="absolute top-20 right-10 w-20 h-20 bg-green-400/20 rounded-full blur-xl"
+        className="absolute top-20 right-10 w-24 h-24 bg-green-300/25 rounded-full blur-xl shadow-lg"
         animate={{
           x: [0, 50, 0],
           y: [0, -30, 0],
@@ -86,7 +87,7 @@ export function Hero() {
         }}
       />
       <motion.div
-        className="absolute bottom-32 left-10 w-32 h-32 bg-green-400/20 rounded-full blur-xl"
+        className="absolute bottom-32 left-10 w-36 h-36 bg-green-300/20 rounded-full blur-xl shadow-lg"
         animate={{
           x: [0, -40, 0],
           y: [0, 30, 0],
@@ -99,7 +100,7 @@ export function Hero() {
         }}
       />
       <motion.div
-        className="absolute top-1/2 right-1/4 w-16 h-16 bg-blue-400/20 rounded-full blur-lg"
+        className="absolute top-1/2 right-1/4 w-20 h-20 bg-emerald-400/25 rounded-full blur-lg shadow-lg"
         animate={{
           x: [0, 20, 0],
           y: [0, -40, 0],
@@ -364,31 +365,65 @@ export function Hero() {
         </motion.div>
       </div>
 
-      {/* Particle Effects */}
+      {/* Cute Sparkle Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(15)].map((_, i) => (
+        {[...Array(20)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 bg-white/30 rounded-full"
+            className="absolute text-yellow-300/60"
             initial={{
-              opacity: 0
+              opacity: 0,
+              scale: 0
             }}
             animate={{
-              y: [-20, -100],
+              y: [-20, -120],
               opacity: [0, 1, 0],
+              scale: [0, 1.5, 0],
+              rotate: [0, 360]
             }}
             transition={{
-              duration: Math.random() * 3 + 2,
+              duration: Math.random() * 4 + 3,
               repeat: Infinity,
-              delay: Math.random() * 2,
+              delay: Math.random() * 3,
               ease: "easeOut"
             }}
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 2}s`
+              fontSize: `${Math.random() * 8 + 12}px`
             }}
-          />
+          >
+            ✨
+          </motion.div>
+        ))}
+        {/* Cute food emojis floating around */}
+        {['🥗', '🥤', '🍓', '🥑', '🌱', '💚'].map((emoji, i) => (
+          <motion.div
+            key={`emoji-${i}`}
+            className="absolute text-2xl"
+            initial={{
+              opacity: 0.7,
+              scale: 0.8
+            }}
+            animate={{
+              y: [0, -30, 0],
+              x: [0, Math.random() * 20 - 10, 0],
+              rotate: [0, Math.random() * 10 - 5, 0],
+              scale: [0.8, 1.1, 0.8]
+            }}
+            transition={{
+              duration: Math.random() * 3 + 4,
+              repeat: Infinity,
+              delay: Math.random() * 2,
+              ease: "easeInOut"
+            }}
+            style={{
+              left: `${15 + Math.random() * 70}%`,
+              top: `${20 + Math.random() * 60}%`,
+            }}
+          >
+            {emoji}
+          </motion.div>
         ))}
       </div>
     </section>
