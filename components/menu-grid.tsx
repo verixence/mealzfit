@@ -18,7 +18,7 @@ const containerVariants = {
       staggerChildren: 0.1
     }
   }
-};
+} as const;
 
 const itemVariants = {
   hidden: { y: 60, opacity: 0 },
@@ -26,11 +26,10 @@ const itemVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.6,
-      ease: [0.25, 0.46, 0.45, 0.94]
+      duration: 0.6
     }
   }
-};
+} as const;
 
 export function MenuGrid() {
   return (

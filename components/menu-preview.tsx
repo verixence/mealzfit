@@ -77,13 +77,13 @@ export function MenuPreview() {
                   </p>
                   
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {item.tags.slice(0, 2).map((tag) => (
+                    {item.tags.slice(0, 2).map((tag: string) => (
                       <Badge
                         key={tag}
                         variant="outline"
                         className={`text-xs ${getBadgeVariant(tag)}`}
                       >
-                        {tag.replace("-", " ").replace(/\b\w/g, l => l.toUpperCase())}
+                        {tag.replace("-", " ").replace(/\b\w/g, (l: string) => l.toUpperCase())}
                       </Badge>
                     ))}
                   </div>

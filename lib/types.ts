@@ -18,7 +18,7 @@ export interface MenuItem {
   tags: string[];
   shortDescription: string;
   image: string;
-  price?: number;
+  price?: number | null;
   nutrition?: NutritionData;
   orderLinks?: {
     swiggy?: string;
