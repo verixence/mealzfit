@@ -222,10 +222,11 @@ export function Hero() {
               </motion.div>
               
               <motion.span
-                className="block text-green-500 bg-gradient-to-r from-green-500 via-green-400 to-emerald-500 bg-clip-text text-transparent"
+                className="block text-white"
                 initial={{ opacity: 0, x: 100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 1.2, ease: "easeOut" }}
+                style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
               >
                 Starts Here
               </motion.span>
@@ -269,7 +270,7 @@ export function Hero() {
                   className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 rounded-full border-2 border-orange-300/50"
                 >
                   <a
-                    href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/restaurant/mealzfit-hyderabad-123456"}
+                    href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/direct/brand/681253?source=swiggy-direct&subSource=generic"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -309,7 +310,7 @@ export function Hero() {
                   className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white min-w-[220px] h-14 text-lg font-bold shadow-2xl hover:shadow-red-500/25 transition-all duration-300 rounded-full border-2 border-red-300/50"
                 >
                   <a
-                    href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
+                    href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-masab-tank/order"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"

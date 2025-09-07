@@ -12,24 +12,31 @@
   "testimonials": [
     {
       "id": "1",
-      "name": "Karan",
+      "name": "Mohammed Riaz",
       "location": "Hyderabad",
       "text": "Mealzfit is my post-gym savior—high protein, zero hassle, and tastes better than cheat meals!",
       "avatar": "/images/avatar-karan.jpg"
     },
     {
       "id": "2",
-      "name": "Anusha",
+      "name": "Afreen Begum",
       "location": "Hyderabad",
       "text": "Finally, a brand that serves homely food—feels like eating at my mom's place.",
       "avatar": "/images/avatar-anusha.jpg"
     },
     {
       "id": "3",
-      "name": "Mr. Ramesh",
+      "name": "Faraz Ahmed",
       "location": "Hyderabad",
       "text": "As a diabetic, Mealzfit makes life easier. Tasty food that doesn't mess with my sugar levels. Love it!",
       "avatar": "/images/avatar-ramesh.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Arshad Ali",
+      "location": "Hyderabad",
+      "text": "Excellent service and delicious healthy meals. Perfect for my family's nutritional needs!",
+      "avatar": "/images/avatar-arshad.jpg"
     }
   ],
   "faqs": [

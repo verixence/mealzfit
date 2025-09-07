@@ -58,7 +58,7 @@ export function Header() {
                 className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
               >
                 <a
-                  href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/restaurant/mealzfit-hyderabad-123456"}
+                  href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/direct/brand/681253?source=swiggy-direct&subSource=generic"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -73,7 +73,7 @@ export function Header() {
                 className="bg-red-500 hover:bg-red-600 text-white"
               >
                 <a
-                  href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
+                  href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-masab-tank/order"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -128,7 +128,7 @@ export function Header() {
                       className="w-full bg-orange-500 hover:bg-orange-600 text-white border-0"
                     >
                       <a
-                        href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/restaurant/mealzfit-hyderabad-123456"}
+                        href={process.env.NEXT_PUBLIC_SWIGGY_URL || "https://www.swiggy.com/direct/brand/681253?source=swiggy-direct&subSource=generic"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -142,7 +142,7 @@ export function Header() {
                       className="w-full bg-red-500 hover:bg-red-600 text-white border-0"
                     >
                       <a
-                        href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-123456"}
+                        href={process.env.NEXT_PUBLIC_ZOMATO_URL || "https://www.zomato.com/hyderabad/mealzfit-masab-tank/order"}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
