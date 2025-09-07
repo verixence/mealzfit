@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Mail, Phone } from "lucide-react";
 import siteConfig from "@/data/site.json";
 
@@ -104,10 +105,30 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-sm text-gray-400">
-            © 2025 Mealzfit. All Rights Reserved.
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-gray-400">
+              © 2025 Mealzfit. All Rights Reserved.
+            </p>
+            <div className="flex items-center gap-2 text-xs text-gray-500">
+              <span>Designed by</span>
+              <a
+                href="https://www.verixence.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 hover:opacity-80 transition-opacity"
+              >
+                <Image
+                  src="/logo.png"
+                  alt="Verixence"
+                  width={16}
+                  height={16}
+                  className="object-contain"
+                />
+                <span className="text-gray-400 hover:text-green-400 transition-colors">Verixence</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
