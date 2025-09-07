@@ -7,39 +7,39 @@ import Image from "next/image";
 const ugcImages = [
   {
     id: 1,
-    src: "/images/ugc/customer-meal-1.jpg",
-    alt: "Customer enjoying Mealzfit chicken delight bowl",
+    src: "/Customer Meal 1.png",
+    alt: "Customer enjoying Mealzfit healthy meal",
     caption: "Perfect post-workout meal! 💪"
   },
   {
     id: 2,
-    src: "/images/ugc/customer-meal-2.jpg",
-    alt: "Diabetic-friendly millet khichdi from Mealzfit",
+    src: "/Customer Meal 2.png",
+    alt: "Diabetic-friendly meal from Mealzfit",
     caption: "My go-to comfort food now 🥰"
   },
   {
     id: 3,
-    src: "/images/ugc/customer-meal-3.jpg",
-    alt: "Fresh smoothie from Mealzfit",
+    src: "/Customer Meal 3.png",
+    alt: "Fresh healthy meal from Mealzfit",
     caption: "Morning energy boost! 🌱"
   },
   {
     id: 4,
-    src: "/images/ugc/customer-meal-4.jpg",
-    alt: "Homely dal and roti meal",
+    src: "/Customer Meal 4.png",
+    alt: "Homely healthy meal from Mealzfit",
     caption: "Tastes just like mom's cooking ❤️"
   },
   {
     id: 5,
-    src: "/images/ugc/customer-meal-5.jpg",
-    alt: "Protein-rich sprouts salad",
+    src: "/Customer Meal 5.png",
+    alt: "Protein-rich healthy meal from Mealzfit",
     caption: "Healthy never tasted this good! 🥗"
   },
   {
     id: 6,
-    src: "/images/ugc/customer-meal-6.jpg",
-    alt: "Sugar-free chia pudding dessert",
-    caption: "Guilt-free dessert heaven 🍮"
+    src: "/Customer Meal 6.png",
+    alt: "Nutritious meal from Mealzfit",
+    caption: "Guilt-free and delicious! 🍮"
   },
 ];
 

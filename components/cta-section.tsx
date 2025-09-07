@@ -32,8 +32,7 @@ export function CTASection() {
               <Button
                 asChild
                 size="lg"
-                variant="secondary"
-                className="min-w-[200px] bg-white text-gray-900 hover:bg-gray-50"
+                className="min-w-[200px] bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_SWIGGY_URL}
@@ -48,8 +47,7 @@ export function CTASection() {
               <Button
                 asChild
                 size="lg"
-                variant="outline"
-                className="min-w-[200px] border-white text-white hover:bg-white hover:text-gray-900"
+                className="min-w-[200px] bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <a
                   href={process.env.NEXT_PUBLIC_ZOMATO_URL}
