@@ -26,8 +26,8 @@ const getBadgeVariant = (tag: string) => {
 };
 
 export function MenuPreview() {
-  // Get top 6 items across different categories
-  const featuredItems = menuData.items.slice(0, 6);
+  // Get top 3 items across different categories
+  const featuredItems = menuData.items.slice(0, 3);
 
   return (
     <section id="menu-preview" className="py-16 bg-white">
@@ -88,40 +88,39 @@ export function MenuPreview() {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-center">
-                    <div className="flex gap-2">
-                      {process.env.NEXT_PUBLIC_SWIGGY_URL && (
-                        <Button
-                          asChild
-                          size="sm"
-                          variant="outline"
-                          className="text-xs border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
+                  <div className="flex gap-3">
+                    {process.env.NEXT_PUBLIC_SWIGGY_URL && (
+                      <Button
+                        asChild
+                        className="flex-1 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white border-0 shadow-md hover:shadow-lg transition-all duration-300 rounded-lg h-10 font-semibold text-sm"
+                      >
+                        <a
+                          href={process.env.NEXT_PUBLIC_SWIGGY_URL}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-2"
                         >
-                          <a
-                            href={process.env.NEXT_PUBLIC_SWIGGY_URL}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Swiggy
-                          </a>
-                        </Button>
-                      )}
-                      {process.env.NEXT_PUBLIC_ZOMATO_URL && (
-                        <Button
-                          asChild
-                          size="sm"
-                          className="text-xs bg-blue-600 hover:bg-blue-700"
+                          <span>🛵</span>
+                          <span>Swiggy</span>
+                        </a>
+                      </Button>
+                    )}
+                    {process.env.NEXT_PUBLIC_ZOMATO_URL && (
+                      <Button
+                        asChild
+                        className="flex-1 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white border-0 shadow-md hover:shadow-lg transition-all duration-300 rounded-lg h-10 font-semibold text-sm"
+                      >
+                        <a
+                          href={process.env.NEXT_PUBLIC_ZOMATO_URL}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-2"
                         >
-                          <a
-                            href={process.env.NEXT_PUBLIC_ZOMATO_URL}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Zomato
-                          </a>
-                        </Button>
-                      )}
-                    </div>
+                          <span>🍽️</span>
+                          <span>Zomato</span>
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>

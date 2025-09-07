@@ -53,7 +53,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden">
               <Image
-                src="/images/about-mission.jpg"
+                src="/Our Mission.png"
                 alt="Fresh ingredients and cooking preparation"
                 fill
                 className="object-cover"
@@ -70,7 +70,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden order-2 lg:order-1">
               <Image
-                src="/images/kitchen-prep.jpg"
+                src="/The Kitchen.png"
                 alt="Professional kitchen with fresh ingredients"
                 fill
                 className="object-cover"
